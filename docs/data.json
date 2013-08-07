@@ -1,0 +1,53 @@
+{
+    "project": {
+        "name": "grunt-example",
+        "description": "An example for gruntjs",
+        "version": "0.1.0"
+    },
+    "files": {
+        "dist/example.debug.js": {
+            "name": "dist/example.debug.js",
+            "modules": {},
+            "classes": {
+                "Ex": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Ex": {
+            "name": "Ex",
+            "shortname": "Ex",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dist/example.debug.js",
+            "line": 10,
+            "description": "This is the description for my class.",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "name",
+                    "description": "",
+                    "type": "String"
+                }
+            ]
+        }
+    },
+    "classitems": [
+        {
+            "file": "dist/example.debug.js",
+            "line": 20,
+            "description": "name",
+            "itemtype": "property",
+            "name": "name",
+            "type": "{String}",
+            "class": "Ex"
+        }
+    ],
+    "warnings": []
+}
